@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
 <head>
 	<meta charset="UTF-8" />
 	<title>Sample Main Page</title>
 </head>
 <body>
-	<div th:each="sample : ${samples}">
-		<p th:text="${sample}"></p>
-	</div>
+	메인 페이지<br />
+	<a href="/auth/login">로그인 페이지로</a>
 </body>
 </html>
